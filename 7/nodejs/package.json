@@ -1,0 +1,15 @@
+{
+  "name": "mongodb-sample-code",
+  "version": "1.0.0",
+  "description": "Sample code to connect to MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Naomi Pentrel",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "mongoose": "^6.2.7"
+  }
+}
