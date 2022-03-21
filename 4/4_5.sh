@@ -1,0 +1,6 @@
+db.movies.find().sort({title: 1})
+db.movies.find({}, { title: 1, genres: 1 }).sort( {title: 1})
+db.movies.find({}, { title: 1, genres: 1 }).sort( {title: -1})
+db.movies.find({}, { title: 1, genres: 1 }).sort( {director: 1, title: 1})
+db.movies.find({}, { title: 1, genres: 1 }).sort( {title: 1}).skip(100)
+db.movies.find({}, { title: 1, genres: 1 }).sort( {title: 1}).skip(100).limit(5)

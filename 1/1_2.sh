@@ -1,4 +1,3 @@
-
 npm version
 npm install -g m
 m latest

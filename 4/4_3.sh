@@ -1,0 +1,11 @@
+use sample_data
+db.inventory.findOne()
+db.inventory.findOne({ "variations.quantity": { $gte: 8 } })
+db.inventory.findOne({ "variations.quantity": { $gte: 17 } })
+db.inventory.findOne({ "variations.quantity": { $gte: 18 } })
+db.inventory.findOne({ "variations.quantity": { $gte: 22 } })
+db.inventory.findOne({ "price": { $lt: 1000 } })
+db.inventory.findOne({ "price": { $lt: 2000 } })
+db.inventory.findOne({ "price": { $lt: 1700 } })
+db.inventory.findOne({ "variations.variation": { $in: [ "Blue", "Red" ] } })
+db.inventory.findOne({ "variations.variation": { $nin: [ "Blue", "Red" ] } })
