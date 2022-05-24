@@ -12,6 +12,6 @@ mongoimport --db=sample_data movies.json
 mongoimport --db=sample_data orders.json
 ```
 
-[lil-course-url]: https://www.linkedin.com/learning/
+[lil-course-url]: [https://www.linkedin.com/learning/](https://www.linkedin.com/learning/mongodb-essential-training)
 [lil-thumbnail-url]: http://
 
